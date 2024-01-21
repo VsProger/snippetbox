@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 )
-
+// page 23
 func home(w http.ResponseWriter, r *http.Request) {
 	if r.URL.Path != "/" {
 		http.NotFound(w, r)
