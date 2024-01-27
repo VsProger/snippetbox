@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func main() {
+func main() { // 60
 	mux := http.NewServeMux()
 
 	fileServer := http.FileServer(http.Dir("./ui/static/"))
